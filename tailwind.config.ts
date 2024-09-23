@@ -30,9 +30,9 @@ const config: Config = {
         accent: '#B809C3',
       },
       backgroundImage: {
-        site: "url('./site-bg.jpg')",
-        about: "url('./about.png')",
-        services: "url('./services.png')",
+        site: "url('/site-bg.jpg')",
+        about: "url('/about.png')",
+        services: "url('/services.png')",
       },
     },
   },
