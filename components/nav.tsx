@@ -3,7 +3,6 @@
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
 import { Link } from 'react-scroll';
-import { ReactScroll } from 'react-scroll-ts';
 
 const Nav = () => {
   return (
@@ -13,6 +12,7 @@ const Nav = () => {
           <Link
             className='flex h-[60px] w-[60px] cursor-pointer items-center justify-center'
             to='home'
+            offset={-200}
             activeClass='active'
             smooth={true}
             spy={true}>
