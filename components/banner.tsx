@@ -26,7 +26,7 @@ const Banner = () => {
               Ben <span>Aiden</span>
             </motion.h1>
             <motion.div
-              className='mb-6 font-secondary text-4xl font-semibold uppercase leading-none lg:text-6xl'
+              className='mb-6 font-secondary text-4xl font-semibold uppercase leading-none lg:text-5xl xl:text-6xl'
               variants={fadeIn({ direction: 'up', delay: 0.4 })}
               initial='hidden'
               whileInView={'show'}
@@ -67,7 +67,7 @@ const Banner = () => {
               iconStyles=''
             />
           </div>
-          <div className='hidden max-w-80 flex-1 lg:flex lg:max-w-[482px]'>
+          <div className='hidden max-w-80 flex-1 lg:flex xl:max-w-[482px]'>
             <Image
               className='w-full'
               src='./avatar.svg'
