@@ -66,7 +66,7 @@
     @apply font-primary bg-gradient-to-r from-[#42A6E3] to-[#FF56F6] bg-clip-text font-bold text-transparent hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
-    @apply flex items-center py-8 lg:h-screen lg:py-24;
+    @apply flex items-center py-8 lg:min-h-screen lg:py-24;
   }
 }
 
