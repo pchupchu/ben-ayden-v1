@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { Orbitron, Rajdhani, Aldrich } from 'next/font/google';
+import { Aldrich, Orbitron, Rajdhani } from 'next/font/google';
+
 import './globals.css';
 
 const orbitron = Orbitron({

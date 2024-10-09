@@ -15,7 +15,9 @@ const Header = () => {
               alt='logo'
             />
           </Link>
-          <button className='btn btn-sm'>Work with me</button>
+          <button type='button' className='btn btn-sm'>
+            Work with me
+          </button>
         </div>
       </div>
     </header>
