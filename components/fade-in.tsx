@@ -3,7 +3,7 @@ interface FadeInProps {
   delay: number;
 }
 
-export const FadeIn = ({ direction, delay }: FadeInProps) => {
+export const fadeIn = ({ direction, delay }: FadeInProps) => {
   return {
     hidden: {
       y: direction === 'up' ? 80 : direction === 'down' ? -80 : 0,
