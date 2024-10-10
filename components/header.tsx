@@ -8,7 +8,7 @@ const Header = () => {
         <div className='flex items-center justify-between'>
           <Link href='/'>
             <Image
-              src='./logo.svg'
+              src='/logo.svg'
               width={100}
               height={48}
               priority
